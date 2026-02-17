@@ -1,15 +1,17 @@
-# html levels
-- here all the html levels are uploaded.
+
+# Delta Projects
+- All the Download starter files with modified with solution code is uploaded here.
+you can download it and make changes.
+
+## css levels
+here  css level wise all lectures code are availables.
+
+## PracticeAssignment
+here all the assignment questions are solved and also practice Questions are solved. 
+
+## html, css, js levels
+- here all the html, css, js levels are uploaded.
 
 ## assignment of html all levels
-- htmlpracticelevel1.html
-- htmlpracticelevel2.html
-- htmlpracticelevel3.html
 
-## practice questions solutions of htmls all level wise
- here in this solution i have also written all the code of course what i study from this delta course.
-- level1.html
-- level2.html
-- level3.html
-- portfolio.html
-
+## practice questions solutions of htmls, css, js all level wise contents.

@@ -1,0 +1,106 @@
+#alpha{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.6);
+    box-shadow: 10px 5px 40px yellow;/*box shadow*/
+}
+
+
+#opacity{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(55, 255, 0, 0.6);
+    /* opacity: 0;
+    opacity: 0.5; */
+    box-shadow: 10px 15px 55px red;
+    opacity: 1;
+    
+    border-radius: 30px;
+}
+
+
+
+   /*transistion effect*/
+
+.trans{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 8px 10px 40px blue ;
+    /* transition: 1s; */
+    transition: margin-top 2s ease-in 1s ;
+
+}
+
+.trans:hover{
+    margin-top: 400px;
+    background-color: blue;
+    /*margin-left: 400px; */
+    
+
+}
+
+
+
+/*transfrom effect */
+
+section{
+    margin-top: 100px;
+}
+.divs{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #2fa874;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.divs:nth-of-type(2n){
+    background-color: chocolate;
+}
+.divs:nth-of-type(3n){
+    background-color: #503ce6;
+}
+
+/* transform */
+
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(2);
+    /* transform: scale(2,0.5); /* x and y */
+    /*transform: scaleX(0.5);
+    transform: scaleY(2); */
+}
+
+#three{
+    transform: translate(100px,100px);
+    /* transform: translateX(100px);
+    transform: translateY(100px); */
+}
+
+#four{
+    transform: skew(45deg);
+    /* transform: skew(-30deg);
+    transform: skewX(40deg);
+    transform: skewY(60deg); */
+}
+
+#five{
+    transform:  translate(100px) rotate(30deg) skew(45deg) scale(2);
+}
+
+
+
+/*   box shadow*/
+
+section{
+    box-shadow: 15px 5px 65px rgb(238, 71, 76);
+}
+
+
+
