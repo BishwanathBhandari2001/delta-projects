@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlpracticelevel 3</title>
+</head>
+<body>
+    
+    <!-- table using HTML -->
+     <table border="black">
+        <caption>Student Information</caption>
+
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+        
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+
+            <tr>
+                <td>A</td>
+                <td>Janakpur</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Sahodwa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>KTM</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Dhanusha</td>
+                <td>4</td>
+            </tr>
+
+     </table>
+
+     <!-- create form using Html -->
+     <div>
+           <br><br>
+        <form action="/about">
+
+            <div>
+                <label for="uname">Name:</label>
+                <input type="text" name="user" id="uname">
+            </div><br><br>
+            <div>
+                <label for="sex">sex</label>
+                <input type="radio" name="sex" id="m" value="male">
+                <label for="m">Male</label>
+                <input type="radio" name="gender" id="f">
+                <label for="f">Female</label>
+            </div><br><br>
+            <div>
+                <label for="Country">Country:</label>
+                <select name="Country" id="Country">
+                    <option value="">Select an option</option>
+                    <option value="India">India</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="USA">USA</option>
+                    <option value="canda">Canada</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div><br><br>
+            <div>
+                <label for="feedback">Message:</label><br>
+                <textarea name="feedback" id="feedback"  cols="30" rows="4"></textarea>
+            </div><br><br>
+            <div>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Subscribe?</label>
+            </div> <br><br>
+            <button>Submit</button>
+
+        </form>
+     </div>
+
+     <br><br><br>
+
+     <!-- another form using html -->
+     <div> 
+        <h2>Feedback Form</h2>
+        <form action="/contact">
+            
+            <div>
+                <label for="uname">Name:</label>
+                <input type="text" name="u" id="uname" placeholder="Write your name">
+            </div><br><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="e" id="email" placeholder="Write your email">
+            </div><br><br>
+            <div>
+                <label for="feedbacks">Messages:</label> <br>
+                <textarea name="feedbacks" id="feedbacks"  cols="44" rows="4" ></textarea>
+            </div><br><br>
+            
+            <div>    
+                <div> <label for="rating">Rate us our of 5:</label><br>
+                    <input type="radio" name="rating" id="rating1" value="one">
+                    <label for="rating1">1</label>
+                </div>
+                <div>
+                    <input type="radio" name="rating" id="rating2" value="two">
+                    <label for="rating2">2</label>
+                </div>
+                <div>
+                    <input type="radio" name="rating" id="rating3" value="three">
+                    <label for="rating3">3</label>
+                </div>
+                <div>
+                    <input type="radio" name="rating" id="rating4" value="four">
+                    <label for="rating4">4</label>
+                </div>
+                <input type="radio" name="rating" id="rating5" value="five">
+                <label for="rating5">5</label>
+            </div><br><br>
+            <button>Send Your Message!</button>
+
+        </form>
+     </div>
+
+    
+
+</body>
+</html>

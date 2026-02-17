@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html level 3</title>
+</head>
+<body>
+    
+    <table border="black">
+        <caption>Food Menu</caption>
+        <!--table Header-->
+        <thead>
+            <tr>
+            <th>Items</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        
+         <!--table body-->
+         <tbody>
+            <tr>
+            <td>Frooti</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Rasgulla</td>
+            <td>30</td>
+        </tr>
+         </tbody>
+        <!--table Footer-->
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>70</td>
+            </tr>
+        </tfoot>    
+    </table> 
+     
+    <br><br>
+
+    <table border="black">
+        <caption>Food Menu </caption>
+        <!--table header-->
+        <thead>
+            <tr>
+                <th rowspan="2">Items</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>Rs</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+
+        <!--table body-->
+        <tbody>
+            <tr>
+                <td>Samosa</td>
+                <td>20</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Frooti</td>
+                <td>30</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Rasgulla</td>
+                <td>50</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <br><br>
+
+    <table border="black">
+        <caption>A Test Table with Merged Cells</caption>
+        <!--table headings-->
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+
+        <!--table body-->
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <br><br>
+    <hr>
+    
+
+    <form action="./actions">
+        
+        Empty<input type="text">
+        username <input type="text">
+        password <input type="password">
+        number <input type="number">
+        time <input type="time">
+        date <input type="date">
+        color <input type="color">
+        file <input type="file">
+        Submit <input type="button">
+        send <input type="submit">
+
+        <hr>
+        <br>
+
+        <fieldset>
+            <legend>Validation Form</legend>
+        <div>
+            <label for="username">USERname</label>
+            <input type="text" id="username" placeholder="Enter Name">
+        </div>
+        
+        <div>
+            <label for="password">PAssword</label>
+            <input type="password" id="password" placeholder="enter password">
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="xyz@gmail.com">
+        </div>
+
+        <button type="button">Clickme</button>  <!--button element-->
+        <button type="reset">Reset</button>
+        <button type="submit">submit</button>
+        <input type="button"  value="btn">
+        <input type="submit" value="Send">
+        
+    </fieldset>
+
+    <br>
+    <hr>
+
+    </form>
+
+    <form action="https://www.youtube.com/results">    <!--Name Attribute-->
+        <label for="searchbutton">Youtube Search video</label>
+        <input type="text" name="search_query" id="searchbutton" placeholder="search">
+        <br>
+        <button>submit</button>
+
+        <hr>  <br><br>
+
+    </form>
+
+    <form action="#">
+        <label for="username">USERname</label>
+        <input type="text" name="User" id="username" placeholder="enter name">
+        <br>
+        <label for="password">PAssword</label>
+        <input type="password" name="pass" id="password">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br> <br>
+
+    <!--practice Q-->
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search in Google">
+        <button>Search</button>
+    
+        <br><br>
+    </form>
+
+    <!--Checkbox-->
+    <form action="#">
+        <br>
+        <input type="checkbox" name="agree" id="accept">
+        <label for="accept">I accept terms and conditions</label>
+        <br>
+        <input type="checkbox" name="age" id="ages" checked>
+        <label for="ages">I am 18+ age</label>
+
+        <br>  <!--Value = "" use for form submit-->
+        <input type="checkbox" name="subject" id="maths" value="math">
+        <label for="maths">Mathematics</label>
+        <input type="checkbox" name="subject" id="sci" value="science">
+        <label for="sci">Science</label>
+        <input type="checkbox" name="subject" id="Engs" value="eng">
+        <label for="Engs">English</label>
+
+        <button>Submit</button>
+    </form>
+
+    <!--Radio buttons  name must be same  is use to group button-->
+    <form action="#"> <br>
+        <label for="gender">Male</label>
+        <input type="radio" name="male" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="Female" id="gender">
+        <br>
+        <br>
+        <label for="yes">True</label>
+        <input type="radio" name="same" id="yes" value="yesss">
+        <label for="no">False</label>
+        <input type="radio" name="same" id="no" value="nooo">
+
+        <button>submit</button>
+
+        <br><br>
+    </form>
+
+    <!--Select Element dropdown list-->
+    <div>Please select your Profession
+        <select name="profess" id="occupation">
+            <option value="">choose</option>
+            <option value="stud">Student</option>
+            <option value="eng">Engineer</option>
+            <option value="doc">Doctor</option>
+            <option value="teach" selected>Teacher</option>
+        </select>
+        <button>Submit</button> &nbsp;&nbsp;
+
+        <select name="course" id="subjects">
+            <option value="">choose Subjects</option>
+            <option value="Eng">English</option>
+            <option value="maths">Mathematic</option>
+            <option value="Sci">Science</option>
+            <option value="Nep">Nepali</option>
+        </select>
+        <button>Submit</button>
+        <br><br>
+    </div>
+
+    <!--Range input  value for bydefault step for steps 5 10 15 ... -->
+    <div>
+        <label for="vols">Select volume level</label>
+        <input type="range" name="volum" id="vols" min="0" max="100">
+        <input type="range" name="volum" id="vols" min="0" max="100" step="10">
+        <input type="range" name="volum" id="vols" min="0" max="100" value="80">
+    <br><br>
+    </div>
+
+    <!--textarea input field-->
+    <div>
+        <label for="feedback">Write Your Comments</label>
+        <textarea name="comments" id="feedback" rows="2" cols="60" placeholder="Give suggestions here"></textarea>
+    </div>
+
+    <!--practice Q -->
+    <form action="#">
+    <div>
+        <fieldset>
+            <legend><h2>Registration Form</h2></legend>
+            <div>
+                <input type="text" name="fname" id="firstname" placeholder="Firstname">
+                <input type="text" name="lname" id="lastname" placeholder="Lastname"> 
+            </div>
+            <div>
+                    <label for="gen">Please Select Gender</label>  
+                    <select name="gender" id="gen">
+                        <option value="mal" selected>Male</option>
+                        <option value="fem">Female</option>
+                        <option value="othr">Others</option>
+                    </select>
+            </div> 
+            <div>
+                 Do You Agree to all terms of services? 
+                <input type="checkbox" name="yes" id="terms" checked>
+                <label for="terms">Yes, I agree</label>
+            </div>
+            <button>Register</button>
+
+        </fieldset>
+        
+    </div>
+    </form>
+
+
+
+
+</body>
+</html>
