@@ -45,25 +45,27 @@
         align-content: ; */
 
     /* align self for individual div and Higher priority than other */
-        #indi{
-            /* align-self: center; */
+     
+    
+    /* #indi{
+           // align-self: center;
 
-             /*flex sizing on basis, grow, shrink, max,min width*/
-              /* flex-basis: 200px;   */
-              /* flex-grow: 2; */  
-              /* flex-shrink: 3; */
-        }
-
+            // flex sizing on basis, grow, shrink, max,min width
+            //  flex-basis: 200px;  
+             // flex-grow: 2;  
+              flex-shrink: 3;  
+        } */
+/* 
         #yel{
-            /* align-self: flex-end; */
+            align-self: flex-end;
 
-             /*flex sizing on basis, grow, shrink, max,min width*/
-                /* flex-basis: 200px; */
-                /* flex-grow: 1;
+             flex sizing on basis, grow, shrink, max,min width
+                flex-basis: 200 px;
+                 flex-grow: 1;
                 max-width: 80px;
-                min-width: 40px; */
-                /* flex-shrink: 2; */
-        }
+                min-width: 40px; 
+                flex-shrink: 2;
+        } */
 
 
 }
