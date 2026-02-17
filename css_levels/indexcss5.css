@@ -1,0 +1,117 @@
+#container{
+    width: 400px;     /* disable it while using shirnk*/
+    height: 300px;
+    border: 2px solid brown;
+    background-color: slategrey;
+    margin: 10px auto;
+
+    display: flex;
+
+    /* Flex-box Directions */
+
+   /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+   flex-direction: row;
+  /* flex-direction: row-reverse;  */
+
+  
+
+  /* justify-content Space Distribution of div in Main Axis*/
+  
+  /* justify-content: center; */
+
+  justify-content: flex-start;
+  /* justify-content: flex-end; */
+
+    /* justify-content: space-around; */ /* start-end less but in b/w more with equal space */
+
+    /* justify-content: space-evenly;*/   /*= Equal space everywhere */
+
+    /* justify-content: space-between; */ /* space b/w Div to div only  nostart & ending space */
+
+
+
+    /* flex-Wrap provides the Actual Height & Width of Div by giving Multiples lines  */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */      /*flex sizing*/
+    /* flex-wrap: wrap-reverse; */
+
+
+
+    /* align-item Space Distribution of div in Cross Axis*/
+    /* align-items: ;
+        align-content: ; */
+
+    /* align self for individual div and Higher priority than other */
+        #indi{
+            /* align-self: center; */
+
+             /*flex sizing on basis, grow, shrink, max,min width*/
+              /* flex-basis: 200px;   */
+              /* flex-grow: 2; */  
+              /* flex-shrink: 3; */
+        }
+
+        #yel{
+            /* align-self: flex-end; */
+
+             /*flex sizing on basis, grow, shrink, max,min width*/
+                /* flex-basis: 200px; */
+                /* flex-grow: 1;
+                max-width: 80px;
+                min-width: 40px; */
+                /* flex-shrink: 2; */
+        }
+
+
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Grande', 'sans-serif';
+    font-size: 40px;
+    
+}
+ 
+/* #container div {
+    width: 40px;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+} */
+
+/*It use for flexwrap*/
+/* #container div {
+    width: 100px;
+    height: 140px;
+    color: white;
+    font-size: 20px;
+} */
+
+
+/*it use for Align item & content*/
+/* #container div {
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+} */
+/*height: 100px; font-size: 40px; blue  baseline  height:20px; orang */
+
+
+    /*flex sizing on basis, grow, shrink, max,min width*/
+    #container div {
+    width: 50px;
+    height: 50px;
+    color: white;
+    /* font-size: 20px; */
+    
+    /* font-size: 5px; */    /*   shrink */
+}
+
+/*shrink*/
+/* #container{
+    width: 200px;
+    height: 300px;
+} */
