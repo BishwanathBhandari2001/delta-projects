@@ -1,7 +1,7 @@
-#Delta_Course 
+# Delta_Course 
 Here is a list of all Chapter wise Solution of Practice & Assignment Question..
 
-##Courses 
+## Courses 
 - Html
 - Css
 - Javascript
@@ -16,5 +16,5 @@ Here is a list of all Chapter wise Solution of Practice & Assignment Question..
 - MongoDB with Express
 - ALL PROJECTS WITH SOLUTIONS IN each folder
 
- ##Projects
+ ## Projects
  all projects are completed successfully and in most of files there is many code which are Commented because of Different Concepts.
