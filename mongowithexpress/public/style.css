@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(125, 129, 128);
+    margin-left: 20px;
+}
+.chats{
+    display: inline-block;
+    background-color: aliceblue;
+    /* width: 400px; */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 8px 3px red inset;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.chats:hover {
+    transform: scale(1.05); /* zoom in slightly */
+    box-shadow: 0 0 12px 4px powderblue; /* optional shadow change */
+}
+
+.msg{
+    background-color:dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+.del, .edit{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+.new{
+    background-color: green;
+    color: white;
+}
+.edits{
+    background-color: springgreen;
+    color: black;
+}
+.delete{
+    background-color: red;
+    color: white;
+}

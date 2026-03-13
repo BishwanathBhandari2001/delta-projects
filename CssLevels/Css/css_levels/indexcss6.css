@@ -1,0 +1,307 @@
+/* grid in css */
+#container{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: inline-grid;
+
+    /* grid-template-rows: 90px 100px;  /*as your need how many andhow much px u can give for your rows */
+    /* grid-template-columns: 100px 200px; */
+
+    /* grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr); */
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* row-gap: 20px;
+     column-gap: 20px; */
+
+    grid-gap: 5px 5px;
+
+   /* grid-gap:30px; */ 
+
+   /* justify-items: start; */  /* horizontal main axis */
+   justify-items: end; 
+
+   align-items: start;
+   /* align-items: end; */  /* vertically  cross axis*/
+
+    place-items: center; /*vertical & horizontal*/
+
+
+}
+
+.one{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+     
+    /* grid-column: 1/4; */
+
+    /* grid-column: 1/span4; */
+   
+    justify-self: center;
+}
+
+.two{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* grid-row: 1/3; */
+
+    /* grid-row: 1/span3; */
+
+    place-self: end;
+}
+
+
+.items{
+    /* width: 100px;  /*grid column rows */
+    /*height: 50px; */
+
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Animation in css */
+#direction{
+    margin-top: 15px;
+    width:100%;
+    height: 600px;
+    background-color: rgb(200, 169, 169);
+    border: 2px solid black;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.boxs{
+    width: 125px;
+    height: 125px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    animation-name: directin;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+    animation: directin  2s ease-out 1s infinite reverse;
+}
+.box3{
+    background-color: rgb(13, 208, 59);
+        animation: directin  2s ease-out 0.5s infinite alternate;
+
+}
+.box4{
+    background-color: blue;
+        animation: directin  2s ease-out 0.5s infinite alternate-reverse;
+
+}
+
+/* animation creation here */
+@keyframes directin{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(680px);
+    }
+}
+
+
+#design{
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.designbox{
+    width: 200px;
+    height: 170px;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+/* color animation */
+.boxs1{
+        border-radius: 40px;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-weight: 1000;
+        padding-top: 50px;
+        animation: coloranimation 0.2s ease-in-out 0s infinite normal;
+}
+@keyframes coloranimation{
+    from{
+        background-color: #f03e03;
+    }
+    to{
+        background-color: blue;
+        box-shadow: 10px 20px 60px red;
+    }
+}
+
+/* font animation   10% 20% 50% 75% 100%*/
+.boxs2{
+    width: 80%;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #fff;
+    animation: fontanimation 4s ease-out 0s 5 normal;
+}
+@keyframes fontanimation{
+    0%{
+        font-size:5px;
+        color: #0df3a6;
+    }
+    50%{
+        font-size: 20px;
+        color: #e814c4;
+    }
+    75%{
+        font-size: 50px;
+        color: red;
+        transform: rotateX(30px);
+    }
+    100%{
+        color: slateblue;
+        font-size: 60px;
+        font-style: normal;
+
+    }
+}
+
+
+/* width animation */
+.boxs3{
+    background-color: #e814c4;
+    animation: widthanimation 2s cubic-bezier(1, 0, 0, 1) 0s infinite reverse;
+}
+@keyframes widthanimation{
+    from{
+        width:0;
+    }
+    to{
+        width: 90%;
+        background-color: blue;
+        border-radius: 0 20px 20px 0;
+    }
+}
+
+
+/* height animation */
+.boxs4{
+    
+    animation: heightanimation 2s steps(5) 0s infinite normal;
+}
+@keyframes heightanimation{
+    from{
+        height:50px;
+        background-color: #e814c4;
+    }
+    to{
+        height: 100px;
+        background-color: #0df3a6;
+        border-radius: 20px;
+    }
+}
+
+
+/* responsiveness screen for width and orientation  */
+
+#media{
+    text-align: center;
+    background-color: royalblue;
+    border: 2px solid black;
+}
+
+ @media (width:400px){  /*1st method */
+    #media{
+        background-color: #554b4b;
+        font-style: italic;
+    }
+}
+
+@media(min-width:200px){  /*2nd method*/
+    #media{
+        background-color: #afb92f;
+    }
+}
+
+@media(max-width:700px){   /* 2nd method*/
+    #media{
+        background-color: #d60404;
+    }
+}
+
+@media(min-width:400px) and (max-width:1200px){ /*3rd method range form*/
+    #media{
+        background-color: #6f36f6;
+        color: #cdc3c0;
+        font-size: 40px;
+    }
+}
+
+@media(orientation: landscape){   /*5th method with orientation landscape*/
+    #media{
+        background-color: #f80994;
+        text-decoration: underline;
+    }
+}
+
+@media(orientation: portrait){  /*5th method with orientation portrait*/
+    #media{
+        background-color: greenyellow;
+        font-size: medium;
+        color: aqua;
+    }
+}
+
+
+/* z-index */
+
+.boxr{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+.index1{
+   
+    background-color: yellowgreen;
+    position: relative;
+    top: 90px;
+    z-index: 5;
+}
+
+.index2{
+    background-color: rgb(50, 161, 205);
+    position: relative;
+    top: 40px;
+    z-index: 2;
+
+}
+.index3{
+    background-color: rgb(205, 76, 50);
+
+}
+
+

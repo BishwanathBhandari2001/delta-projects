@@ -1,0 +1,16 @@
+{
+  "name": "myprojectdemopackage",
+  "version": "1.0.0",
+  "description": "this is a demo to create a self package using npm init cmd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bishwanath Bhandari",
+  "license": "ISC",
+  "dependencies": {
+    "give-me-a-joke": "^0.3.2",
+    "random-words": "^2.0.1",
+    "type": "module"
+  }
+}

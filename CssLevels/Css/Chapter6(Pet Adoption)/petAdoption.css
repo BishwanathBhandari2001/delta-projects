@@ -1,0 +1,97 @@
+h2{
+    color: chocolate;
+}
+
+span{
+    color: olive;
+}
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;  
+    margin: 20px;
+    padding:10px;
+    box-shadow: 10px 20px 30px black;
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out ;
+    
+}
+
+.card:hover{
+    box-shadow: 20px 30px 50px red;
+}
+
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+#timo , #gaby , #jamie{
+    height: 400px;
+}
+
+/* responsive page */
+
+@media(min-width:100px) and (max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+h1{
+    color: rgb(95, 10, 95);
+    text-align: center;
+    text-decoration: underline aqua;
+};
+
+body {
+    background-color: rgb(13, 157, 205);
+}
+
+.post {
+    background-color: rgb(6, 243, 160);
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+button{
+    position: absolute;
+    left: 36rem;
+}
+form{
+        display: inline-block;
+        margin-bottom: 18px;
+}

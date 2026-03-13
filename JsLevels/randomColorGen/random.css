@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 600px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    
+    margin: 0  0 10px;
+}
+
+
+/* this is another part of code like next lesson */
+
+p{
+    text-align: center;
+    margin-top: 40px;
+}
+

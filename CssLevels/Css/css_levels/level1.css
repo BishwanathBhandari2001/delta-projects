@@ -1,0 +1,43 @@
+/* external style
+h1{
+    color: aqua;
+}
+h2{
+    background-color: red;
+}
+p{
+    font-size: 40px;
+    color: blue;
+}
+button{
+    background-color:green;
+}
+*/
+
+/* practice qs 
+h2{
+    color: orange;
+}
+button{
+    background-color: blue;
+    color: #f32a22;
+}
+p{
+    background-color: black;
+    color: rgb(100, 200, 145);
+}
+*/
+
+/* practice qs 
+h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+    */
